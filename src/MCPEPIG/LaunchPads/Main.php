@@ -13,10 +13,10 @@ class Main extends PluginBase implements Listener{
     @mkdir($this->getServer()->getDataPath() . "/plugins/LaunchPads/");
     $this->launchPads = (new Config($this->getDataFolder()."config.yml", Config::YAML, array(
       "launchpad" => 152,
-      "nlaunchpad" => 56,
-      "slaunchpad" => 129,
-      "wlaunchpad" => 14,
-      "elaunchpad" => 21
+      "nlaunchpad" => 129,
+      "slaunchpad" => 56,
+      "wlaunchpad" => 21,
+      "elaunchpad" => 14
     )));
     $this->getLogger()->info("§aLaunchPads by MCPEPIG loaded.");
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
