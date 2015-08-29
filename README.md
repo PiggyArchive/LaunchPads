@@ -6,4 +6,5 @@ To change a type of launchpad's block, open the config.yml and change wateverpad
 
 #Coming Soon
 A command to change the block of a launch pad
+
 A permission node for using a launchpad
