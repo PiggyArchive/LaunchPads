@@ -1,10 +1,5 @@
 # LaunchPads
-Adds launch pads to your server.
+Make any block a launchpad
 
 # Configuration
-To change a type of launchpad's block, open the config.yml and change wateverpadtype (launchpadm nlaunchpad, slaunchpad, elaunchpad, & wlaunchpad) and set the current block id to the one you want
-
-#Coming Soon
-A command to change the block of a launch pad
-
-A permission node for using a launchpad
+To change a launchpad, go to config.yml and change launchpad to the id of the block you want. If you want to make a launchpad launch a player a certain direction, make sure enable-torch-mose is set to true, then place a torch under the launchpad facing the direction you want.
