@@ -14,9 +14,9 @@ class EventListener implements Listener{
         $player = $event->getPlayer();
         $block = $player->getLevel()->getBlock($player->floor()->subtract(0, 1));
         $block2 = $player->getLevel()->getBlock($player->floor()->subtract(0, 2));
-        $launchpad = $this->plugin->launchpads->get("launchpad");
+        $launchpad = $this->plugin->getconfig()->get("launchpad");
         if($block->getId() == $launchpad){
-            if($this->plugin->launchpads->get("enable-torch-mode")){
+            if($this->plugin->getconfig()->get("enable-torch-mode")){
                 if($block2->getId() == 50){
                     switch($block2->getDamage()){
                         case 2:
