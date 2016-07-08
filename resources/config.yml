@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 #The blocks you want as launchpad
 launchpad: [152]
-=======
-#The block you want as launchpad
-launchpad: 152
->>>>>>> origin/master
 #If enabled, you can change a launchpad's direction by placing a torch the direction you want.
 enable-torch-mode: true
 ...
