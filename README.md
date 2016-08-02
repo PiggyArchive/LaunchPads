@@ -1,6 +1,10 @@
 # LaunchPads
 Make any block a launchpad!
 
+###v1.0.3
+* Added launchpad strength
+* Prevent fall damage from launchpads
+
 ###v1.0.2
 * Added notes to config
 * You can now have multiple blocks as launchpads
